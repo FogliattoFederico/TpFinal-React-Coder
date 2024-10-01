@@ -1,1 +1,2 @@
 # TpFinal-React-Coder
+Trabajo practico final donde simulo una e-commerce utilizando HTML, JS, CSS y React (vite). Para poder visualizar la pagina utilizamos el comando npm run dev. El proyecto permite mostrar todos los juegos almacenados en Firebase, mostrar juegos segun categoria y agregar juegos al carrito. Para finalizar la compra, la pagina solicita informacion del cliente la cual es almacenada en firebase y devuelve al cliente un Id de transaccion.
