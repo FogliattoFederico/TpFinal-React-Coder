@@ -1,0 +1,39 @@
+.ItemListContainer {
+  margin-top: 2rem;
+  padding: 10px;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+}
+.Juego-Filtrado {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.Contenedor-Juegos {
+  display: grid;
+  grid-template-columns: 100%;
+  row-gap: 40px;
+  align-items: center;
+  justify-items: center;
+  margin-top: 40px;
+  margin-bottom: 6rem;
+}
+.Spinner {
+  display: flex;
+  justify-content: center;
+  margin: 40px;
+}
+@media (min-width: 768px) {
+  .Contenedor-Juegos {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 992px) {
+  .Contenedor-Juegos {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

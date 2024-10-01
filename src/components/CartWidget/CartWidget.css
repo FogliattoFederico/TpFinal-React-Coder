@@ -1,0 +1,9 @@
+.Carrito {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+span {
+  font-size: 25px;
+}

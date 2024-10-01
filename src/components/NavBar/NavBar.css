@@ -1,0 +1,45 @@
+.Bg-Nav {
+  background-color: cadetblue;
+  width: 100%;
+  padding: 2rem;
+  height: 30rem;
+}
+
+.NavBarSuperior {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.NavBarInferior {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.Separador {
+  display: flex;
+  border-top: 2px solid gray;
+}
+
+.Link {
+  padding: 2rem;
+  list-style: none;
+  margin-bottom: 1rem;
+}
+.title {
+  color: black;
+}
+@media (min-width: 768px) {
+  .NavBarInferior {
+    flex-direction: row;
+  }
+  .Bg-Nav {
+    height: 18rem;
+  }
+  .NavBarSuperior {
+    width: 90%;
+  }
+}
